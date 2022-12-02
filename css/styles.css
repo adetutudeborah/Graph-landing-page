@@ -1,0 +1,366 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: "Montserrat-bold";
+  } 
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Heeading */
+  
+  .title-heading {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+  .sub-heading{
+    font-family: 'Montserrat, sans-serif';
+    color: #ffff;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  
+  /* Background colour */
+  
+  .white-section{
+    background-color: #ffff;
+  }
+  
+  .coloured-section{
+    background-color: #66BFBF;
+    color: #ffff;
+  }
+  
+  /* Containers */
+  
+  .container-fluid {
+    padding: 5% 15%;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffff;
+  }
+    
+  .navbar {
+    padding-bottom: 4.0rem;
+  }
+    
+  .nav-item {
+    padding: 0 20px;
+  }
+  
+  .nav-link{
+    color: #ffff;
+    font-size: 18px;
+  }
+    
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  
+  
+  /* Title Section */
+  
+  #title{
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 12%;
+  } 
+  
+  img {
+    vertical-align: middle;
+    margin-left: 25%;
+  }
+    
+  .title-img {
+    width: 90%; 
+  }
+
+  .more-button {
+    margin-bottom: 40px;
+  }
+
+  .more-button:hover {
+    color: #1c1f23;
+    background: #ffffff;
+    border: 1px solid #ffff;
+    cursor: pointer;
+  }
+  
+  /* features */
+  
+  #features {
+    padding: 2% 0;
+    line-height: 1.8;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+
+  .feature-text {
+    line-height: 1.8;
+    padding: 0 4%;
+  }
+  
+  .icon-style {
+    color: #66BFBF;
+    font-size: 60px;
+    padding-bottom: 1.0rem;
+  }
+  
+  
+  /* Testimonial */
+  
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 3.0rem;
+    line-height: 1.5;
+  }
+  
+  .carousel-item {
+    padding: 8% 18%;
+  }
+  
+  /* Card */
+
+  .card {
+    border-radius: 30px;
+  }
+
+  .card h3{
+    font-size: bold;
+  }
+  
+  /* Pricing */
+  
+  #pricing {
+    padding: 100px;
+  }
+  
+  .pricing-column{
+    margin-top: 30px;
+  }
+  
+  .price-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* CTA */
+  
+  
+  /* Footer */
+  
+  .social-icon {
+    margin: 40px 20px;
+  }
+  
+  /* Media Queries */
+  
+  @media only screen and (max-width: 750px) {
+  
+  body {
+        max-width: 100%;
+  }
+    
+  h1, #title, img {
+      text-align: center;
+  }
+
+  .title-heading {
+    font-size: 1.8rem;
+  }
+    
+  .sub-heading {
+    font-size: 1.0rem;
+  }
+
+  img {
+    vertical-align: middle;
+    margin-left: 15%;
+  }
+
+  .title-img {
+    width: 80%;
+  }
+
+  .more-button {
+    font-size: 14px;
+    height: 40px;
+    line-height: 0;
+
+  }
+
+  .navbar{
+    padding-bottom: 3.0rem;
+  }
+
+  .feature-title {
+    font-size: 1.2rem;
+  }
+  
+  .icon-style {
+    font-size: 40px;
+    padding: 20px 0px 5px;
+  }
+
+  .feature-text{
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .carousel-item {
+    padding: 10% 12%;
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-image{
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+  }
+
+  .client{
+    font-size: 12px;
+    color: #ffffff;
+    padding-bottom: 10px;
+  }
+
+  
+  .pricing-heading {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  #pricing {
+    padding: 40px;
+  }
+
+  #pricing .container-fluid {
+    padding: 0;
+  }
+
+  .price-text {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    font-size: 12px;
+    line-height: 1.0;
+  }
+
+  .card h3 {
+    font-weight: bold;
+  }
+
+  .card button {
+    font-size: 10px;
+  }
+
+  .download-button{
+    font-size: 14px;
+  }
+
+  #footer{
+    font-size: 12px;
+    padding: 20px 0;
+  }
+
+  .contact-us{
+    font-size: 18px;
+  }
+
+ .social-icon {
+    font-size: 14px;
+    margin: 20px 10px;
+  }
+
+}
+
+@media only screen and (width: 360px) {
+  
+  .title-heading {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media only screen and (width: 1024px) {
+
+.title-heading {
+    font-size: 2.2rem;
+  }
+    
+.sub-heading {
+    font-size: 1.0rem;
+  }
+  
+.title-img{
+    width: 100%;   
+  }
+
+.testimonial-text {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+
+.pricing-heading {
+    font-size: 2.2rem;
+  }
+  
+}
+
+@media only screen and (width: 1280px) {
+
+.title-heading {
+    font-size: 2.5rem;
+}
+
+.title-img{
+   width: 90%;   
+}
+  }
